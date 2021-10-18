@@ -1,0 +1,110 @@
+body {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+span, h1{
+    font-size: 30px;
+    color: #52217c;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+fieldset{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#legenda1 {
+    color: #52217c;
+    font-weight: 900;
+}
+
+#legenda2 {
+    margin-top: 10px;
+    color: #52217c;
+    font-weight: 900;
+}
+
+#dia {
+    width: 50px;
+}
+
+fieldset {
+    border: 1px solid transparent;
+}
+
+fieldset label{
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+#botao:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #7f7f7f;
+    transform: scale(130%);
+}
+
+#botao{
+    border-radius: 50%;
+    width: 10vh;
+    margin-top: 18px;
+}
+
+#caixaResposta{
+    display:none;
+    width: 300px;
+    height: 80px;
+    background: linear-gradient(to bottom, #fcf5be, #f8eea7,#bb8470);    
+    position: absolute;
+    top: 81%;
+    left: 35%;
+    border:solid 1px #7f7f7f;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#faixaAzul{
+    width: 300px;
+    height: 30px;
+    background-color: #aa6a4f;
+}
+
+#cabecalhoCaixa{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+#botaoOk{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #aa6a4f;
+    color: white;
+}
+
+#mensagem {
+    font-size: x-large;
+    color: black;
+}
+
+#botaoOk:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #7f7f7f;
+}
+
+li {    
+    list-style: none;
+}
+
+#mostrar {
+    display: none;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>Descubra o signo:</h1>
+    <form id="meuformulario">
+        <fieldset>
+            <legend id="legenda1">Escolha o mês de nascimento:</legend>
+            <li><input type="radio" name="meses" id="1" /><label for="jan">Janeiro</label></li>
+            <li><input type="radio" name="meses" id="2" /><label for="fev">Fevereiro</label></li>
+            <li><input type="radio" name="meses" id="3" /><label for="mar">Março</label></li>
+            <li><input type="radio" name="meses" id="4" /><label for="abr">Abril</label></li>
+            <li><input type="radio" name="meses" id="5" /><label for="mai">Maio</label></li>
+            <li><input type="radio" name="meses" id="6" /><label for="jun">Junho</label></li>
+            <li><input type="radio" name="meses" id="7" /><label for="jul">Julho</label></li>
+            <li><input type="radio" name="meses" id="8" /><label for="ago">Agosto</label></li>
+            <li><input type="radio" name="meses" id="9" /><label for="set">Setembro</label></li>
+            <li><input type="radio" name="meses" id="10" /><label for="out">Outubro</label></li>
+            <li><input type="radio" name="meses" id="11" /><label for="nov">Novembro</label></li>
+            <li><input type="radio" name="meses" id="12" /><label for="dez">Dezembro</label></li>
+
+            <legend id="legenda2">Escolha o dia de nascimento:</legend>
+            <label for="dia">
+                <select name="dias" id="dia">
+                    <option value="" id="day0" unchecked hidden></option>
+                    <option value="1" id="day1">1</option>
+                    <option value="2" id="day2">2</option>
+                    <option value="3" id="day3">3</option>
+                    <option value="4" id="day4">4</option>
+                    <option value="5" id="day5">5</option>
+                    <option value="6" id="day6">6</option>
+                    <option value="7" id="day7">7</option>
+                    <option value="8" id="day8">8</option>
+                    <option value="9" id="day9">9</option>
+                    <option value="10" id="day10">10</option>
+                    <option value="11" id="day11">11</option>
+                    <option value="12" id="day12">12</option>
+                    <option value="13" id="day13">13</option>
+                    <option value="14" id="day14">14</option>
+                    <option value="15" id="day15">15</option>
+                    <option value="16" id="day16">16</option>
+                    <option value="17" id="day17">17</option>
+                    <option value="18" id="day18">18</option>
+                    <option value="19" id="day19">19</option>
+                    <option value="20" id="day20">20</option>
+                    <option value="21" id="day21">21</option>
+                    <option value="22" id="day22">22</option>
+                    <option value="23" id="day23">23</option>
+                    <option value="24" id="day24">24</option>
+                    <option value="25" id="day25">25</option>
+                    <option value="26" id="day26">26</option>
+                    <option value="27" id="day27">27</option>
+                    <option value="28" id="day28">28</option>
+                    <option value="29" id="day29">29</option>
+                    <option value="30" id="day30">30</option>
+                    <option value="31" id="day31">31</option>
+                </select>
+            </label>
+            <div>
+                <img src="images2.jpg" id="botao" onclick="chamarJanela()" onmouseover="button()" onmouseout="button2()">
+            </div>
+        </fieldset>
+    </form>
+
+    <div id="caixaResposta">
+        <div id="faixaAzul">
+            <p id=cabecalhoCaixa>Resultado</p>
+        </div>
+        <span id="mensagem"></span>
+        <span id="botaospan"><button id="botaoOk" onclick="fecharJanela()">Ok</button></span>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
